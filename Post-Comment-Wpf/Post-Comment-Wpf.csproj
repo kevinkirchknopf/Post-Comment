@@ -1,10 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Post_Comment_Libary</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Post_Comment_Wpf</RootNamespace>
     <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +22,8 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.1" />
   </ItemGroup>
 
-  
+  <ItemGroup>
+    <ProjectReference Include="..\Post-Comment-Libary\Post-Comment-Libary.csproj" />
+  </ItemGroup>
 
 </Project>

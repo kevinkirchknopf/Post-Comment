@@ -1,0 +1,9 @@
+﻿<Application x:Class="Post_Comment_Wpf.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Post_Comment_Wpf"
+             StartupUri="Posts.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
